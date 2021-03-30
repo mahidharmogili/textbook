@@ -1,0 +1,20 @@
+
+
+<button class=" flex flex-row items-center justify-center justify-around rounded-lg border-4 hover:bg-red-500 truncate {{@size}}
+
+{{if @google "bg-gray-300 text-black"}}
+{{if @facebook "bg-blue-600 text-white"}}
+{{if @twitter "bg-blue-300 text-white"}}
+
+
+
+">
+<span><img src="{{@iconUrl}}" class="w-12 h-12 p-2"></span>
+
+<span>{{@name}}</span>
+
+
+</button>
+
+
+{{yield}}

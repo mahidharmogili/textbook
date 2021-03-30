@@ -1,0 +1,17 @@
+<button class="button rounded-lg h-12 border-4 hover:bg-red-500 truncate {{@size}}
+         
+        {{if @info "bg-black text-white"}}
+        {{if @sucess "bg-green-300 text-black"}}
+        {{if @warning "bg-red-300 text-black"}}
+        {{if @danger "bg-red-600 text-white"}}
+        {{if @pill "rounded-full"}}
+    
+
+">{{@name}}
+</button>
+
+
+
+
+
+{{yield}}
